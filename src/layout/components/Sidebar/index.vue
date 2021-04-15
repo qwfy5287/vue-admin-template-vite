@@ -27,7 +27,7 @@
 import { mapGetters } from 'vuex'
 import Logo from './Logo.vue'
 import SidebarItem from './SidebarItem.vue'
-import variables from '@/styles/variables.scss'
+// import variables from '@/styles/variables.scss'
 // console.log('🚀 ~ file: index.vue ~ line 31 ~ variables', variables)
 
 export default {
