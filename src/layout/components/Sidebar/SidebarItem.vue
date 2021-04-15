@@ -42,6 +42,7 @@ import { isExternal } from '@/utils/validate'
 import Item from './Item.vue'
 import AppLink from './Link.vue'
 import FixiOSBug from './FixiOSBug'
+import { getFullPath } from '@/common/router.common'
 
 export default {
   name: 'SidebarItem',
@@ -101,11 +102,7 @@ export default {
         return this.basePath
       }
       // return path.resolve(this.basePath, routePath)
-      if (routePath.startsWith(this.basePath)) {
-        return routePath
-      } else {
-        return this.basePath
-      }
+      return getFullPath(this.basePath, routePath, this.$router)
     },
   },
 }
