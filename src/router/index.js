@@ -39,7 +39,7 @@ export const constantRoutes = [
 
   {
     path: '/404',
-    component: () => import('@/views/404'),
+    component: () => import('@/views/404.vue'),
     hidden: true,
   },
 

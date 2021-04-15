@@ -12,4 +12,23 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  optimizeDeps: {
+    exclude: ['@/assets/fonts'],
+  },
+  base: '/',
+  server: {
+    port: 3000,
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'static',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'element-ui': ['element-ui'],
+          // lodash: ["lodash"],
+        },
+      },
+    },
+  },
 })
