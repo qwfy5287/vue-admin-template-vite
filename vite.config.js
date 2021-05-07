@@ -6,7 +6,17 @@ import { svgBuilder } from './src/plugins/svgBuilder'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [createVuePlugin(), svgBuilder('./src/icons/svg/')],
+  plugins: [
+    createVuePlugin({
+      vueTemplateOptions: {
+        compilerOptions: {
+          // 去掉 回车 引起的 margin
+          whitespace: 'condense',
+        },
+      },
+    }),
+    svgBuilder('./src/icons/svg/'),
+  ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
