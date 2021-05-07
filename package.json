@@ -32,7 +32,9 @@
     "sass": "^1.32.8",
     "svg-sprite-loader": "^6.0.5",
     "vite": "^2.1.5",
-    "vite-plugin-vue2": "^1.4.3"
+    "vite-plugin-vue2": "^1.4.3",
+    "vite-plugin-windicss": "^0.10.2",
+    "tailwindcss": "^2.1.1"
   },
   "license": "MIT"
 }

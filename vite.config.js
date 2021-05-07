@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 const path = require('path')
 const { createVuePlugin } = require('vite-plugin-vue2')
 import { svgBuilder } from './src/plugins/svgBuilder'
+import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,6 +17,7 @@ export default defineConfig({
       },
     }),
     svgBuilder('./src/icons/svg/'),
+    WindiCSS(),
   ],
   resolve: {
     alias: {
