@@ -33,7 +33,7 @@
     "sass": "^1.32.13",
     "svg-sprite-loader": "^6.0.6",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.3.0",
+    "vite": "2.2.4",
     "vite-plugin-vue2": "^1.5.1",
     "vite-plugin-windicss": "^0.10.4"
   },
