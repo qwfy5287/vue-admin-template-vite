@@ -22,7 +22,6 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "esbuild-plugin-vite-element-ui": "^1.0.2",
     "@vue/composition-api": "^1.0.0-rc.8",
     "@vue/eslint-config-prettier": "^6.0.0",
     "eslint": "^7.26.0",
@@ -33,7 +32,7 @@
     "sass": "^1.32.13",
     "svg-sprite-loader": "^6.0.6",
     "tailwindcss": "^2.1.2",
-    "vite": "2.2.4",
+    "vite": "^2.3.7",
     "vite-plugin-vue2": "^1.5.1",
     "vite-plugin-windicss": "^0.10.4"
   },

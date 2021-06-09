@@ -1512,15 +1512,10 @@ entities@^2.0.0:
   resolved "https://registry.npm.taobao.org/entities/download/entities-2.2.0.tgz?cache=0&sync_timestamp=1611535711703&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fentities%2Fdownload%2Fentities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
 
-esbuild-plugin-vite-element-ui@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.nlark.com/esbuild-plugin-vite-element-ui/download/esbuild-plugin-vite-element-ui-1.0.2.tgz#7daf7c4dd3401d918ad7ae588bdb0c3017060396"
-  integrity sha1-fa98TdNAHZGK165Yi9sMMBcGA5Y=
-
-esbuild@^0.9.3:
-  version "0.9.7"
-  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.9.7.tgz?cache=0&sync_timestamp=1621937147328&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fesbuild%2Fdownload%2Fesbuild-0.9.7.tgz#ea0d639cbe4b88ec25fbed4d6ff00c8d788ef70b"
-  integrity sha1-6g1jnL5LiOwl++1Nb/AMjXiO9ws=
+esbuild@^0.12.5:
+  version "0.12.7"
+  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.12.7.tgz#0243ff94b241d9c815720083633731bc5b601b24"
+  integrity sha1-AkP/lLJB2cgVcgCDYzcxvFtgGyQ=
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -2827,6 +2822,15 @@ postcss@^8.1.6, postcss@^8.2.1:
     nanoid "^3.1.23"
     source-map "^0.6.1"
 
+postcss@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.0.tgz#b1a713f6172ca427e3f05ef1303de8b65683325f"
+  integrity sha1-sacT9hcspCfj8F7xMD3otlaDMl8=
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
+
 posthtml-parser@^0.2.0, posthtml-parser@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npm.taobao.org/posthtml-parser/download/posthtml-parser-0.2.1.tgz#35d530de386740c2ba24ff2eb2faf39ccdf271dd"
@@ -3216,6 +3220,11 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
+
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.npm.taobao.org/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
 
 source-map-resolve@^0.5.0:
   version "0.5.3"
@@ -3645,13 +3654,13 @@ vite-plugin-windicss@^0.10.4:
     debug "^4.3.2"
     windicss "^2.5.7"
 
-vite@2.2.4:
-  version "2.2.4"
-  resolved "https://registry.nlark.com/vite/download/vite-2.2.4.tgz?cache=0&sync_timestamp=1621932433578&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvite%2Fdownload%2Fvite-2.2.4.tgz#8f9cc85aacab04c850085894b086c8717f12ed16"
-  integrity sha1-j5zIWqyrBMhQCFiUsIbIcX8S7RY=
+vite@^2.3.7:
+  version "2.3.7"
+  resolved "https://registry.nlark.com/vite/download/vite-2.3.7.tgz?cache=0&sync_timestamp=1623137032628&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvite%2Fdownload%2Fvite-2.3.7.tgz#3023892419367465e1af1739578f8663d04243b2"
+  integrity sha1-MCOJJBk2dGXhrxc5V4+GY9BCQ7I=
   dependencies:
-    esbuild "^0.9.3"
-    postcss "^8.2.1"
+    esbuild "^0.12.5"
+    postcss "^8.3.0"
     resolve "^1.19.0"
     rollup "^2.38.5"
   optionalDependencies:

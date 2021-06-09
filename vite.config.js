@@ -5,8 +5,6 @@ const { createVuePlugin } = require('vite-plugin-vue2')
 import { svgBuilder } from './src/plugins/svgBuilder'
 import WindiCSS from 'vite-plugin-windicss'
 
-import esbuildPlugin from 'esbuild-plugin-vite-element-ui'
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -28,9 +26,6 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: ['@/assets/fonts'],
-    esbuildOptions: {
-      plugins: [esbuildPlugin()],
-    },
   },
   base: '/',
   server: {
